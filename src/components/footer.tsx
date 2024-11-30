@@ -9,7 +9,7 @@ export default function Footer() {
         <Link href="/">Basha Construction</Link>
       </div> */}
       <p className="text-center">
-        Copyright 2024 Gener 2. All Rights Reserved.
+        Copyright 2024 Basha Coonstruction. All Rights Reserved.
       </p>
     </footer>
   );
