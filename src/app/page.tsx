@@ -1,21 +1,54 @@
-import Image from "next/image";
+"use client";
+
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        Content Here ...
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+      <Header />
+      <main>
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={1}
+          navigation
+          autoplay
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
         >
-          Basha Construction
-        </a>
-      </footer>
+          <SwiperSlide>
+            <div className="bg-[url('/slider/1.jpg')] h-screen -mt-[70px] bg-cover bg-center"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-[url('/slider/2.jpg')] h-screen -mt-[70px] bg-cover bg-center"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-[url('/slider/3.jpg')] h-screen -mt-[70px] bg-cover bg-center"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-[url('/slider/4.jpg')] h-screen -mt-[70px] bg-cover bg-center"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-[url('/slider/5.jpg')] h-screen -mt-[70px] bg-cover bg-center"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-[url('/slider/6.jpg')] h-screen -mt-[70px] bg-cover bg-center"></div>
+          </SwiperSlide>
+        </Swiper>
+      </main>
+      <Footer />
     </div>
   );
 }
