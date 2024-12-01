@@ -13,7 +13,7 @@ export default function Header() {
     />
   );
   return (
-    <div className="w-full bg-[#2E496D] h-[70px]">
+    <div className="w-full bg-[#000000] h-[70px]">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <Link href="/" className="block h-[70px]">
           <Logo />
