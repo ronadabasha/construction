@@ -3,12 +3,12 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#000000] py-4 text-white">
+    <footer className="w-full bg-[#3D4047] border-t border-[#888889] py-4 text-white">
       {/* <div className="flex justify-between max-w-6xl mx-auto">
         <button className="bg-[#2E496D] px-4 py-2 rounded">Contact us</button>
         <Link href="/">Basha Construction</Link>
       </div> */}
-      <p className="text-center text-xs">
+      <p className="text-center text-xs text-[#888889]">
         Copyright 2024 Basha Coonstruction. All Rights Reserved.
       </p>
     </footer>
