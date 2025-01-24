@@ -31,6 +31,7 @@ import {
   Facebook,
   Instagram,
   Phone,
+  Location,
 } from "@/components/icons";
 import Check from "@/components/icons/check";
 
@@ -49,103 +50,98 @@ export default function Home() {
           slidesPerView={1}
           navigation
           autoplay
-          pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
-            <div className="bg-[url('/slider/1.jpg')] h-screen -mt-[70px] bg-cover bg-center bg-center">
-              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-[300px]">
+            <div className="bg-[url('/slider/5.jpg')] h-screen bg-cover bg-center bg-center">
+              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
                 <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Distinctio aliquam itaque dolorum.
                 </p>
-                <button className="bg-[#18776A] text-[#ffffffed] px-6 py-3 mt-8">
-                  Shiko me shume
-                </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[url('/slider/2.jpg')] h-screen -mt-[70px] bg-cover bg-center bg-center">
-              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-[300px]">
+            <div className="bg-[url('/slider/1.jpg')] h-screen bg-cover bg-center bg-center">
+              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
+                <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Distinctio aliquam itaque dolorum.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-[url('/slider/2.jpg')] h-screen bg-cover bg-center bg-center">
+              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
                 <h1 className="text-xl font-bold mb-8">Pllaka dhe parkete</h1>
+                <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Distinctio aliquam itaque dolorum.
                 </p>
-                <button className="bg-[#18776A] text-[#ffffffed] px-6 py-3 mt-8">
-                  Shiko me shume
-                </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[url('/slider/3.jpg')] h-screen -mt-[70px] bg-cover bg-center bg-center">
-              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-[300px]">
+            <div className="bg-[url('/slider/3.jpg')] h-screen bg-cover bg-center bg-center">
+              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
                 <h1 className="text-xl font-bold mb-8">Hidrosanitare</h1>
+                <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Distinctio aliquam itaque dolorum.
                 </p>
-                <button className="bg-[#18776A] text-[#ffffffed] px-6 py-3 mt-8">
-                  Shiko me shume
-                </button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[url('/slider/4.jpg')] h-screen -mt-[70px] bg-cover bg-center bg-center">
-              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-[300px]">
+            <div className="bg-[url('/slider/4.jpg')] h-screen bg-cover bg-center bg-center">
+              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
                 <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Distinctio aliquam itaque dolorum.
                 </p>
-                <button className="bg-[#18776A] text-[#ffffffed] px-6 py-3 mt-8">
-                  Shiko me shume
-                </button>
               </div>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
-            <div className="bg-[url('/slider/5.jpg')] h-screen -mt-[70px] bg-cover bg-center bg-center">
-              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-[300px]">
+            <div className="bg-[url('/slider/6.jpg')] h-screen bg-cover bg-center bg-center">
+              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
                 <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Distinctio aliquam itaque dolorum.
                 </p>
-                <button className="bg-[#18776A] text-[#ffffffed] px-6 py-3 mt-8">
-                  Shiko me shume
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-[url('/slider/6.jpg')] h-screen -mt-[70px] bg-cover bg-center bg-center">
-              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-[300px]">
-                <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio aliquam itaque dolorum.
-                </p>
-                <button className="bg-[#18776A] text-[#ffffffed] px-6 py-3 mt-8">
-                  Shiko me shume
-                </button>
               </div>
             </div>
           </SwiperSlide>
         </Swiper>
         <div
           id="about"
-          className="bg-[url('/slider/3.jpg')] bg-cover bg-center bg-center bg-fixed"
+          className="bg-[url('/slider/3.jpg')] bg-cover bg-center bg-fixed"
         >
-          <div className="bg-[#ffffffed] py-14 ">
-            <div className="h-[300px] max-w-6xl mx-auto ">
+          <div className="bg-[#ffffffed] py-20 ">
+            <div className="max-w-6xl mx-auto text-center ">
               <h2 className="text-xl font-bold mb-6">Rreth nesh</h2>
+              <hr className="border-t-2 border-[#18776A] w-[50px] mx-auto mb-6" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
                 odio cupiditate, quas ut nihil corporis tempore perferendis odit
@@ -164,9 +160,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="projects" className="bg-[#18776A] text-[#ffffffed] py-14">
-          <div className="max-w-6xl mx-auto ">
+        <div id="projects" className="bg-[#18776A] text-[#ffffffed] py-20">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-xl font-bold mb-6">Projektet tona</h2>
+            <hr className="border-t-2 border-[#ffffff] w-[50px] mx-auto mb-6" />
             <p className="mb-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
               odio cupiditate, quas ut nihil corporis tempore perferendis.
@@ -212,10 +209,61 @@ export default function Home() {
                   <img className="img-responsive hidden" src="gallery/7.jpg" />
                 </div>
               </a>
+              <a href="gallery/4.jpg" className="block">
+                <div className="bg-[url('/gallery/4.jpg')] bg-cover bg-center w-full h-[200px]">
+                  <img className="img-responsive hidden" src="gallery/4.jpg" />
+                </div>
+              </a>
+              <a href="gallery/5.jpg" className="block">
+                <div className="bg-[url('/gallery/5.jpg')] bg-cover bg-center w-full h-[200px]">
+                  <img className="img-responsive hidden" src="gallery/5.jpg" />
+                </div>
+              </a>
+              <a href="gallery/6.jpg" className="block">
+                <div className="bg-[url('/gallery/6.jpg')] bg-cover bg-center w-full h-[200px]">
+                  <img className="img-responsive hidden" src="gallery/6.jpg" />
+                </div>
+              </a>
             </LightGallery>
           </div>
         </div>
-        <div className="h-[400px]"></div>
+        <div className="flex justify-between py-20 max-w-6xl mx-auto">
+          <div className="flex justify-center items-center">
+            <a href="tel:+355 68 368 3636">
+              <div className="flex justify-center items-center rounded-full h-[90px] w-[90px] bg-[#18776A]">
+                <Phone className="w-10 h-10 bg-[#18776A]" />
+              </div>
+            </a>
+            <div className="flex flex-col ml-10">
+              <span className="text-[#18776A]">Phone:</span>
+              <a href="tel:+355 68 368 3636">+355 68 368 3636</a>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <a href="tel:+355 68 368 3636">
+              <div className="flex justify-center items-center rounded-full h-[90px] w-[90px] bg-[#18776A]">
+                <Location />
+              </div>
+            </a>
+            <div className="flex flex-col ml-10">
+              <span className="text-[#18776A]">Address:</span>
+              <a href="tel:+355 68 368 3636">Tirana, Albania</a>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <a href="mailto: basha.construction@gmail.com">
+              <div className="flex justify-center items-center rounded-full h-[90px] w-[90px] bg-[#18776A]">
+                <Email className="w-10 h-10 bg-[#18776A]" />
+              </div>
+            </a>
+            <div className="flex flex-col ml-10">
+              <span className="text-[#18776A]">Email:</span>
+              <a href="mailto: basha.construction@gmail.com">
+                basha.construction@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
         <div id="contact" className="w-full bg-[#3D4047] py-10 text-white">
           <div className="max-w-6xl mx-auto flex justify-between">
             <ul className="w-1/4">
@@ -269,18 +317,21 @@ export default function Home() {
               </li>
             </ul>
             <ul>
-              <li className="mb-10">
-                <h2>Kontakt</h2>
+              <li>
+                <h2 className="mb-10">Kontakt</h2>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
-                <a href="" className="flex py-1">
-                  <Phone />
+                <a href="tel:+355 68 368 3636" className="flex py-1">
+                  <Phone className="w-5 h-5" />
                   <span className="ml-2">+355 68 368 3636</span>
                 </a>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
-                <a href="" className="flex py-1">
-                  <Email />
+                <a
+                  href="mailto: basha.construction@gmail.com"
+                  className="flex py-1"
+                >
+                  <Email className="w-5 h-5" />
                   <span className="ml-2">basha.construction@gmail.com</span>
                 </a>
               </li>

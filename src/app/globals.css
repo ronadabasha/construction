@@ -19,3 +19,20 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.swiper-button-prev:after,
+.swiper-button-next:after,
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  color: #ffffff;
+  opacity: 1 !important;
+}
+
+.swiper-scrollbar {
+  /* background: #ffffff !important;
+  opacity: 0.4; */
+}
+
+.swiper-scrollbar-drag {
+  background: #18776a !important;
+}

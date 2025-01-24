@@ -1,8 +1,13 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
+
   const Logo = () => (
     <Image
       className="absolute -mt-[22px] -ml-10"
@@ -13,24 +18,48 @@ export default function Header() {
     />
   );
   return (
-    <div className="w-full bg-[#000000] h-[70px]">
+    <div className="w-full bg-[#000000] h-[70px] fixed z-10">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <Link href="/" className="block h-[70px]">
           <Logo />
         </Link>
 
         <nav>
-          <ul className="text-white">
-            <li className="inline-block px-2">
+          <ul className="text-[#18776A]">
+            <li
+              className={`inline-block px-2 ${
+                pathname?.includes("#") == false
+                  ? "border-b-2 border-transparent"
+                  : ""
+              }`}
+            >
               <Link href="/">Kreu</Link>
             </li>
-            <li className="inline-block px-2">
+            <li
+              className={`inline-block px-2 ${
+                pathname?.includes("/#about")
+                  ? "border-b-2 border-[#18776a]"
+                  : ""
+              }`}
+            >
               <Link href="#about">Rreth nesh</Link>
             </li>
-            <li className="inline-block px-2">
+            <li
+              className={`inline-block px-2 ${
+                pathname?.includes("/#projects")
+                  ? "border-b border-[#18776a]"
+                  : ""
+              }`}
+            >
               <Link href="#projects">Projekte</Link>
             </li>
-            <li className="inline-block px-2">
+            <li
+              className={`inline-block px-2 ${
+                pathname?.includes("/#contact")
+                  ? "border-b-2 border-[#18776a]"
+                  : ""
+              }`}
+            >
               <Link href="#contact">Kontakt</Link>
             </li>
           </ul>
