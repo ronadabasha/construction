@@ -43,102 +43,104 @@ export default function Home() {
     <div>
       <Header />
       <main>
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={50}
-          slidesPerView={1}
-          navigation
-          autoplay
-          scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-        >
-          <SwiperSlide>
-            <div className="bg-[url('/slider/1.jpg')] h-screen bg-cover bg-center">
-              <div className="relative  max-w-6xl h-screen  mx-auto">
-                <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
-                  <h1 className="text-xl font-urbanist font-bold mb-8">
-                    Rreth Nesh
-                  </h1>
-                  <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+        <div className="-mt-[70px] z-10 relative">
+          <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={50}
+            slidesPerView={1}
+            navigation
+            autoplay
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+          >
+            <SwiperSlide>
+              <div className="bg-[url('/slider/1.jpg')] h-screen bg-cover bg-center">
+                <div className="relative  max-w-6xl h-screen  mx-auto">
+                  <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
+                    <h1 className="text-xl font-urbanist font-bold mb-8">
+                      Rreth Nesh
+                    </h1>
+                    <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                  <p className="font-urbanist font-medium">
-                    10 vite përkushtim në ndërtim dhe rinovim me standardet më
-                    të larta të cilësisë
-                  </p>
+                    <p className="font-urbanist font-medium">
+                      10 vite përkushtim në ndërtim dhe rinovim me standardet më
+                      të larta të cilësisë
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-[url('/slider/2.jpg')] h-screen bg-cover bg-center">
-              <div className="relative  max-w-6xl h-screen  mx-auto">
-                <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
-                  <h1 className="text-xl font-urbanist font-bold mb-8">
-                    Shërbimet Tona
-                  </h1>
-                  <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[url('/slider/2.jpg')] h-screen bg-cover bg-center">
+                <div className="relative  max-w-6xl h-screen  mx-auto">
+                  <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
+                    <h1 className="text-xl font-urbanist font-bold mb-8">
+                      Shërbimet Tona
+                    </h1>
+                    <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                  <p className="font-urbanist font-medium">
-                    Një gamë e gjerë shërbimesh ndërtimi dhe rinovimi për çdo
-                    nevojë. Nga pllakat dhe parketet deri te instalimet dhe
-                    fasadat moderne.
-                  </p>
+                    <p className="font-urbanist font-medium">
+                      Një gamë e gjerë shërbimesh ndërtimi dhe rinovimi për çdo
+                      nevojë. Nga pllakat dhe parketet deri te instalimet dhe
+                      fasadat moderne.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-[url('/slider/3.jpg')] h-screen bg-cover bg-center bg-center">
-              <div className="relative  max-w-6xl h-screen  mx-auto">
-                <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
-                  <h1 className="text-xl font-urbanist font-bold mb-8">
-                    Pse të na Zgjidhni Ne?
-                  </h1>
-                  <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[url('/slider/3.jpg')] h-screen bg-cover bg-center bg-center">
+                <div className="relative  max-w-6xl h-screen  mx-auto">
+                  <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
+                    <h1 className="text-xl font-urbanist font-bold mb-8">
+                      Pse të na Zgjidhni Ne?
+                    </h1>
+                    <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                  <p className="font-urbanist font-medium">
-                    Kombinimi i inovacionit, përvojës dhe zgjidhjeve të
-                    personalizuara për çdo klient.
-                  </p>
+                    <p className="font-urbanist font-medium">
+                      Kombinimi i inovacionit, përvojës dhe zgjidhjeve të
+                      personalizuara për çdo klient.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-[url('/slider/4.jpg')] h-screen bg-cover bg-center">
-              <div className="relative  max-w-6xl h-screen  mx-auto">
-                <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
-                  <h1 className="text-xl font-urbanist font-bold mb-8">
-                    Ekipi Ynë
-                  </h1>
-                  <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[url('/slider/4.jpg')] h-screen bg-cover bg-center">
+                <div className="relative  max-w-6xl h-screen  mx-auto">
+                  <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
+                    <h1 className="text-xl font-urbanist font-bold mb-8">
+                      Ekipi Ynë
+                    </h1>
+                    <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                  <p className="font-urbanist font-medium">
-                    Profesionalistë të kualifikuar që punojnë me pasion dhe
-                    përkushtim maksimal
-                  </p>
+                    <p className="font-urbanist font-medium">
+                      Profesionalistë të kualifikuar që punojnë me pasion dhe
+                      përkushtim maksimal
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-[url('/slider/5.jpg')] h-screen bg-cover bg-center">
-              <div className="relative  max-w-6xl h-screen  mx-auto">
-                <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
-                  <h1 className="text-xl font-urbanist font-bold mb-8">
-                    Na Kontaktoni
-                  </h1>
-                  <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[url('/slider/5.jpg')] h-screen bg-cover bg-center">
+                <div className="relative  max-w-6xl h-screen  mx-auto">
+                  <div className="absolute bg-[#00000094] text-white max-w-full mx-6 md:mx-0 md:max-w-[500px] p-8 left-0 bottom-6 md:bottom-auto md:top-1/2 -mt-[22px]">
+                    <h1 className="text-xl font-urbanist font-bold mb-8">
+                      Na Kontaktoni
+                    </h1>
+                    <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                  <p className="font-urbanist font-medium">
-                    Ju sillni idetë, dhe ne i kthejmë në realitet!
-                  </p>
+                    <p className="font-urbanist font-medium">
+                      Ju sillni idetë, dhe ne i kthejmë në realitet!
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
+            </SwiperSlide>
+          </Swiper>
+        </div>
         <div
           id="about"
           className="bg-[url('/slider/3.jpg')] bg-cover bg-center bg-fixed"
