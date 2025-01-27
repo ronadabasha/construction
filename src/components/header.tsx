@@ -17,14 +17,14 @@ export default function Header() {
     />
   );
   return (
-    <div className="w-full bg-[#000000] h-[70px] z-10">
+    <div className="w-full bg-[#000000] h-[70px] z-30 relative">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <Link href="/" className="block h-[70px] ml-6 md:ml-0">
           <Logo />
         </Link>
 
         <nav className="hidden lg:flex ">
-          <ul className="text-[#18776A]">
+          <ul className="text-white">
             {routes.map((item: Routes) => {
               return (
                 <li

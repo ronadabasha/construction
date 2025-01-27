@@ -19,7 +19,7 @@ export const routes: Routes[] = [
       path: PROJECTS,
     },
     {
-      label: "Contact",
+      label: "Kontakt",
       path: CONTACT,
     },
 ]
