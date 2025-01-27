@@ -27,7 +27,7 @@ export default function Header() {
         <nav>
           <ul className="text-[#18776A]">
             <li
-              className={`inline-block px-2 ${
+              className={`inline-block px-2 font-urbanist font-semibold ${
                 pathname?.includes("#") == false
                   ? "border-b-2 border-transparent"
                   : ""
@@ -36,7 +36,7 @@ export default function Header() {
               <Link href="/">Kreu</Link>
             </li>
             <li
-              className={`inline-block px-2 ${
+              className={`inline-block px-2 font-urbanist font-semibold ${
                 pathname?.includes("/#about")
                   ? "border-b-2 border-[#18776a]"
                   : ""
@@ -45,7 +45,7 @@ export default function Header() {
               <Link href="#about">Rreth nesh</Link>
             </li>
             <li
-              className={`inline-block px-2 ${
+              className={`inline-block px-2 font-urbanist font-semibold ${
                 pathname?.includes("/#projects")
                   ? "border-b border-[#18776a]"
                   : ""
@@ -54,7 +54,7 @@ export default function Header() {
               <Link href="#projects">Projekte</Link>
             </li>
             <li
-              className={`inline-block px-2 ${
+              className={`inline-block px-2 font-urbanist font-semibold ${
                 pathname?.includes("/#contact")
                   ? "border-b-2 border-[#18776a]"
                   : ""

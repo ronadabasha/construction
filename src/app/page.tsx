@@ -56,10 +56,12 @@ export default function Home() {
           <SwiperSlide>
             <div className="bg-[url('/slider/1.jpg')] h-screen bg-cover bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Rreth Nesh</h1>
+                <h1 className="text-xl font-urbanist font-bold mb-8">
+                  Rreth Nesh
+                </h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                <p>
+                <p className="font-urbanist font-medium">
                   10 vite përkushtim në ndërtim dhe rinovim me standardet më të
                   larta të cilësisë
                 </p>
@@ -69,10 +71,12 @@ export default function Home() {
           <SwiperSlide>
             <div className="bg-[url('/slider/2.jpg')] h-screen bg-cover bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Shërbimet Tona</h1>
+                <h1 className="text-xl font-urbanist font-bold mb-8">
+                  Shërbimet Tona
+                </h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                <p>
+                <p className="font-urbanist font-medium">
                   Një gamë e gjerë shërbimesh ndërtimi dhe rinovimi për çdo
                   nevojë. Nga pllakat dhe parketet deri te instalimet dhe
                   fasadat moderne.
@@ -83,12 +87,12 @@ export default function Home() {
           <SwiperSlide>
             <div className="bg-[url('/slider/3.jpg')] h-screen bg-cover bg-center bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">
+                <h1 className="text-xl font-urbanist font-bold mb-8">
                   Pse të na Zgjidhni Ne?
                 </h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                <p>
+                <p className="font-urbanist font-medium">
                   Kombinimi i inovacionit, përvojës dhe zgjidhjeve të
                   personalizuara për çdo klient.
                 </p>
@@ -98,10 +102,12 @@ export default function Home() {
           <SwiperSlide>
             <div className="bg-[url('/slider/4.jpg')] h-screen bg-cover bg-center bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Ekipi Ynë</h1>
+                <h1 className="text-xl font-urbanist font-bold mb-8">
+                  Ekipi Ynë
+                </h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                <p>
+                <p className="font-urbanist font-medium">
                   Profesionalistë të kualifikuar që punojnë me pasion dhe
                   përkushtim maksimal
                 </p>
@@ -111,10 +117,14 @@ export default function Home() {
           <SwiperSlide>
             <div className="bg-[url('/slider/5.jpg')] h-screen bg-cover bg-center bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Na Kontaktoni</h1>
+                <h1 className="text-xl font-urbanist font-bold mb-8">
+                  Na Kontaktoni
+                </h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                <p>Ju sillni idetë, dhe ne i kthejmë në realitet!</p>
+                <p className="font-urbanist font-medium">
+                  Ju sillni idetë, dhe ne i kthejmë në realitet!
+                </p>
               </div>
             </div>
           </SwiperSlide>
@@ -125,27 +135,29 @@ export default function Home() {
         >
           <div className="bg-[#ffffffed] py-20 ">
             <div className="max-w-6xl mx-auto text-center ">
-              <h2 className="text-xl font-bold mb-6">Rreth nesh</h2>
+              <h2 className="text-2xl font-urbanist font-bold mb-6">
+                Rreth nesh
+              </h2>
               <hr className="border-t-2 border-[#18776A] w-[50px] mx-auto mb-6" />
-              <p className="mb-4">
+              <p className="text-lg mb-4 font-urbanist font-medium">
                 Prej më shumë se 10 vitesh, Basha Construction është sinonim i
                 cilësisë dhe besueshmërisë në sektorin e ndërtimit.
               </p>
-              <p className="mb-4">
+              <p className="text-lg mb-4 font-urbanist font-medium">
                 Ne ofrojmë një gamë të gjerë shërbimesh, si pllaka dhe parkete,
                 fasada të standardeve më të larta, instalime hidraulike dhe
                 elektrike, montim kamerash sigurie, punime gipsi, lyerje
                 dekorative dhe ndërtimin e oborreve e trotuareve.
               </p>
-              <p className="mb-4">
+              <p className="text-lg mb-4 font-urbanist font-medium">
                 Profesionalizmi ynë dhe përkushtimi ndaj detajeve na bën
                 partnerin ideal për projekte të vogla dhe të mëdha.{" "}
               </p>
-              <p className="mb-4">
+              <p className="text-lg mb-4 font-urbanist font-medium">
                 Klientët tanë na zgjedhin për cilësinë, korrektësinë dhe
                 zgjidhjet e personalizuara që u përshtaten nevojave të tyre.
               </p>
-              <p className="mb-4">
+              <p className="text-lg mb-4 font-urbanist font-medium">
                 <strong>Me Basha Construction, çdo ide bëhet realitet!</strong>
               </p>
             </div>
@@ -153,9 +165,11 @@ export default function Home() {
         </div>
         <div id="projects" className="bg-[#18776A] text-[#ffffffed] py-20">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-xl font-bold mb-6">Projektet tona</h2>
+            <h2 className="text-2xl font-urbanist font-bold mb-6">
+              Projektet tona
+            </h2>
             <hr className="border-t-2 border-[#ffffff] w-[50px] mx-auto mb-6" />
-            <p className="mb-6 max-w-screen-md mx-auto">
+            <p className="text-md mb-6 max-w-screen-md mx-auto font-urbanist font-regular">
               Çdo projekt që realizojmë është një shembull i përkushtimit dhe
               cilësisë që ofron Basha Construction. Nga zgjidhjet funksionale te
               detajet estetike, ne sigurohemi që të tejkalojmë pritshmëritë e
@@ -229,9 +243,21 @@ export default function Home() {
               </div>
             </a>
             <div className="flex flex-col ml-10">
-              <span className="text-[#18776A]">Tel:</span>
-              <a href="tel: 00355 68 368 3636">+355 68 368 3636</a>
-              <a href="tel: 00355 68 587 9006">+355 68 587 9006</a>
+              <span className="text-[#18776A] font-urbanist font-bold">
+                Tel:
+              </span>
+              <a
+                href="tel: 00355 68 368 3636"
+                className="font-urbanist font-medium"
+              >
+                +355 68 368 3636
+              </a>
+              <a
+                href="tel: 00355 68 587 9006"
+                className="font-urbanist font-medium"
+              >
+                +355 68 587 9006
+              </a>
             </div>
           </div>
           <div className="flex justify-center items-center">
@@ -241,10 +267,13 @@ export default function Home() {
               </div>
             </a>
             <div className="flex flex-col ml-10">
-              <span className="text-[#18776A]">Adresa:</span>
+              <span className="text-[#18776A] font-urbanist font-bold">
+                Adresa:
+              </span>
               <a
                 href="https://maps.app.goo.gl/xTgAqwFFCUtiW1FZ7"
                 target="_blank"
+                className="font-urbanist font-medium"
               >
                 Tirana, Albania
               </a>
@@ -257,8 +286,13 @@ export default function Home() {
               </div>
             </a>
             <div className="flex flex-col ml-10">
-              <span className="text-[#18776A]">Email:</span>
-              <a href="mailto: construct.basha@gmail.com">
+              <span className="text-[#18776A] font-urbanist font-bold">
+                Email:
+              </span>
+              <a
+                href="mailto: construct.basha@gmail.com"
+                className="font-urbanist font-medium"
+              >
                 construct.basha@gmail.com
               </a>
             </div>
@@ -268,24 +302,26 @@ export default function Home() {
           <div className="max-w-6xl mx-auto flex justify-between">
             <ul className="w-1/4">
               <li>
-                <h2 className="mb-10">Basha Construction</h2>
+                <h2 className="mb-10 text-xl font-urbanist font-bold">
+                  Basha Construction
+                </h2>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <Link href="/" className="flex -ml-[10px] py-1">
                   <ChevronRight /> Kreu
                 </Link>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <Link href="#about" className="flex -ml-[10px] py-1">
                   <ChevronRight /> Rreth nesh
                 </Link>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <Link href="#projects" className="flex -ml-[10px] py-1">
                   <ChevronRight /> Projekte
                 </Link>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <Link href="#contact" className="flex -ml-[10px] py-1">
                   <ChevronRight /> Kontakt
                 </Link>
@@ -293,34 +329,36 @@ export default function Home() {
             </ul>
             <ul className="w-1/4">
               <li>
-                <h2 className="mb-10">Shërbimet Tona</h2>
+                <h2 className="mb-10 text-xl font-urbanist font-bold">
+                  Shërbimet Tona
+                </h2>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <span className="flex -ml-[10px] py-1">
                   <Check /> Fasada
                 </span>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <span className="flex -ml-[10px] py-1">
                   <Check /> Pllaka & Parkete
                 </span>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <span className="flex -ml-[10px] py-1">
                   <Check /> Instalime Elektrike & Hidraulike
                 </span>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <span className="flex -ml-[10px] py-1">
                   <Check /> Punime Gipsi
                 </span>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <span className="flex -ml-[10px] py-1">
                   <Check /> Oborre & Trotuare
                 </span>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <span className="flex -ml-[10px] py-1">
                   <Check /> Montim Kamerash
                 </span>
@@ -328,9 +366,11 @@ export default function Home() {
             </ul>
             <ul>
               <li>
-                <h2 className="mb-10">Kontakt</h2>
+                <h2 className="mb-10 text-xl font-urbanist font-bold">
+                  Kontakt
+                </h2>
               </li>
-              <li className="flex border-b border-[#888889] text-[#888889]">
+              <li className="flex border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <Phone className="w-5 h-5 mr-2" />
                 <div>
                   <a href="tel:+355 68 368 3636" className="">
@@ -340,7 +380,7 @@ export default function Home() {
                   <a href="tel: 00355 68 587 9006">+355 68 587 9006</a>
                 </div>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
+              <li className="border-b border-[#888889] text-[#888889] font-urbanist font-medium">
                 <a
                   href="mailto: construct.basha@gmail.com"
                   className="flex py-1"
@@ -351,7 +391,9 @@ export default function Home() {
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
                 <ul className="flex items-center py-1">
-                  <li className="inline-block mr-3">Na ndiqni:</li>
+                  <li className="inline-block mr-3 font-urbanist font-medium">
+                    Na ndiqni:
+                  </li>
                   <li className="inline-block">
                     <a href="https://www.instagram.com/basha_construction/">
                       <Instagram />
