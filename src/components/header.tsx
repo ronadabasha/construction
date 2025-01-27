@@ -3,6 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import NavbarMobile from "./navbar-mobile";
+import { Routes, routes } from "@/data/routes";
 
 export default function Header() {
   const Logo = () => (
@@ -21,22 +23,21 @@ export default function Header() {
           <Logo />
         </Link>
 
-        <nav>
+        <nav className="hidden lg:flex ">
           <ul className="text-[#18776A]">
-            <li className="inline-block px-2 font-urbanist font-semibold">
-              <Link href="/">Kreu</Link>
-            </li>
-            <li className="inline-block px-2 font-urbanist font-semibold">
-              <Link href="#about">Rreth nesh</Link>
-            </li>
-            <li className="inline-block px-2 font-urbanist font-semibold">
-              <Link href="#projects">Projekte</Link>
-            </li>
-            <li className="inline-block px-2 font-urbanist font-semibold">
-              <Link href="#contact">Kontakt</Link>
-            </li>
+            {routes.map((item: Routes) => {
+              return (
+                <li
+                  key={item.path}
+                  className="inline-block px-2 font-urbanist font-semibold"
+                >
+                  <Link href={item.path}>{item.label}</Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
+        <NavbarMobile />
       </div>
     </div>
   );
