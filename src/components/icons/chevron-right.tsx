@@ -1,6 +1,6 @@
 const ChevronRight = () => (
   <svg
-    fill="#ffffff2b"
+    fill="#18776A"
     width={25}
     height={25}
     viewBox="0 0 24 24"

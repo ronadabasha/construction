@@ -9,8 +9,8 @@ export default function Footer() {
         <Link href="/">Basha Construction</Link>
       </div> */}
       <p className="text-center text-xs text-[#888889]">
-        Copyright {new Date().getFullYear()} Basha Coonstruction. All Rights
-        Reserved.
+        Copyright {new Date().getFullYear()} Basha Coonstruction. Të gjithë të
+        drejtat të rezervuara.
       </p>
     </footer>
   );

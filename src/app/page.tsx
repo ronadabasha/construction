@@ -28,7 +28,6 @@ import Link from "next/link";
 import {
   ChevronRight,
   Email,
-  Facebook,
   Instagram,
   Phone,
   Location,
@@ -55,40 +54,28 @@ export default function Home() {
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
-            <div className="bg-[url('/slider/5.jpg')] h-screen bg-cover bg-center bg-center">
+            <div className="bg-[url('/slider/1.jpg')] h-screen bg-cover bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <h1 className="text-xl font-bold mb-8">Rreth Nesh</h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio aliquam itaque dolorum.
+                  10 vite përkushtim në ndërtim dhe rinovim me standardet më të
+                  larta të cilësisë
                 </p>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[url('/slider/1.jpg')] h-screen bg-cover bg-center bg-center">
+            <div className="bg-[url('/slider/2.jpg')] h-screen bg-cover bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <h1 className="text-xl font-bold mb-8">Shërbimet Tona</h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio aliquam itaque dolorum.
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-[url('/slider/2.jpg')] h-screen bg-cover bg-center bg-center">
-              <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Pllaka dhe parkete</h1>
-                <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
-
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio aliquam itaque dolorum.
+                  Një gamë e gjerë shërbimesh ndërtimi dhe rinovimi për çdo
+                  nevojë. Nga pllakat dhe parketet deri te instalimet dhe
+                  fasadat moderne.
                 </p>
               </div>
             </div>
@@ -96,12 +83,14 @@ export default function Home() {
           <SwiperSlide>
             <div className="bg-[url('/slider/3.jpg')] h-screen bg-cover bg-center bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Hidrosanitare</h1>
+                <h1 className="text-xl font-bold mb-8">
+                  Pse të na Zgjidhni Ne?
+                </h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio aliquam itaque dolorum.
+                  Kombinimi i inovacionit, përvojës dhe zgjidhjeve të
+                  personalizuara për çdo klient.
                 </p>
               </div>
             </div>
@@ -109,27 +98,23 @@ export default function Home() {
           <SwiperSlide>
             <div className="bg-[url('/slider/4.jpg')] h-screen bg-cover bg-center bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <h1 className="text-xl font-bold mb-8">Ekipi Ynë</h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio aliquam itaque dolorum.
+                  Profesionalistë të kualifikuar që punojnë me pasion dhe
+                  përkushtim maksimal
                 </p>
               </div>
             </div>
           </SwiperSlide>
-
           <SwiperSlide>
-            <div className="bg-[url('/slider/6.jpg')] h-screen bg-cover bg-center bg-center">
+            <div className="bg-[url('/slider/5.jpg')] h-screen bg-cover bg-center bg-center">
               <div className="absolute bg-[#00000094] text-white max-w-[500px] p-8 left-40 top-1/2 -mt-[22px]">
-                <h1 className="text-xl font-bold mb-8">Punime Dekorative</h1>
+                <h1 className="text-xl font-bold mb-8">Na Kontaktoni</h1>
                 <hr className="border-t-2 border-[#18776A] w-[50px] mb-6" />
 
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Distinctio aliquam itaque dolorum.
-                </p>
+                <p>Ju sillni idetë, dhe ne i kthejmë në realitet!</p>
               </div>
             </div>
           </SwiperSlide>
@@ -142,20 +127,26 @@ export default function Home() {
             <div className="max-w-6xl mx-auto text-center ">
               <h2 className="text-xl font-bold mb-6">Rreth nesh</h2>
               <hr className="border-t-2 border-[#18776A] w-[50px] mx-auto mb-6" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                odio cupiditate, quas ut nihil corporis tempore perferendis odit
-                officiis esse, voluptatibus optio voluptas culpa rem nobis? Hic
-                tempora officiis maiores?
+              <p className="mb-4">
+                Prej më shumë se 10 vitesh, Basha Construction është sinonim i
+                cilësisë dhe besueshmërisë në sektorin e ndërtimit.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                ex, quis nesciunt totam obcaecati facilis! Exercitationem sit
-                aliquam quas odio. Commodi, maiores ipsum. Illum consequatur
-                aperiam eligendi beatae unde facere. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Enim soluta labore unde odit ipsa
-                eligendi cupiditate quia, pariatur deleniti voluptates dicta
-                quam vero expedita id quos similique repudiandae nisi? Voluptas?
+              <p className="mb-4">
+                Ne ofrojmë një gamë të gjerë shërbimesh, si pllaka dhe parkete,
+                fasada të standardeve më të larta, instalime hidraulike dhe
+                elektrike, montim kamerash sigurie, punime gipsi, lyerje
+                dekorative dhe ndërtimin e oborreve e trotuareve.
+              </p>
+              <p className="mb-4">
+                Profesionalizmi ynë dhe përkushtimi ndaj detajeve na bën
+                partnerin ideal për projekte të vogla dhe të mëdha.{" "}
+              </p>
+              <p className="mb-4">
+                Klientët tanë na zgjedhin për cilësinë, korrektësinë dhe
+                zgjidhjet e personalizuara që u përshtaten nevojave të tyre.
+              </p>
+              <p className="mb-4">
+                <strong>Me Basha Construction, çdo ide bëhet realitet!</strong>
               </p>
             </div>
           </div>
@@ -164,9 +155,12 @@ export default function Home() {
           <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-xl font-bold mb-6">Projektet tona</h2>
             <hr className="border-t-2 border-[#ffffff] w-[50px] mx-auto mb-6" />
-            <p className="mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              odio cupiditate, quas ut nihil corporis tempore perferendis.
+            <p className="mb-6 max-w-screen-md mx-auto">
+              Çdo projekt që realizojmë është një shembull i përkushtimit dhe
+              cilësisë që ofron Basha Construction. Nga zgjidhjet funksionale te
+              detajet estetike, ne sigurohemi që të tejkalojmë pritshmëritë e
+              klientëve tanë. Projektet tona janë ndërtuar për të qëndruar në
+              kohë dhe për të reflektuar vizionin dhe kërkesat e çdo klienti.
             </p>
             <LightGallery
               elementClassNames="grid gap-5 grid-cols-5"
@@ -229,37 +223,43 @@ export default function Home() {
         </div>
         <div className="flex justify-between py-20 max-w-6xl mx-auto">
           <div className="flex justify-center items-center">
-            <a href="tel:+355 68 368 3636">
+            <a href="tel: 00355 68 368 3636">
               <div className="flex justify-center items-center rounded-full h-[90px] w-[90px] bg-[#18776A]">
                 <Phone className="w-10 h-10 bg-[#18776A]" />
               </div>
             </a>
             <div className="flex flex-col ml-10">
-              <span className="text-[#18776A]">Phone:</span>
-              <a href="tel:+355 68 368 3636">+355 68 368 3636</a>
+              <span className="text-[#18776A]">Tel:</span>
+              <a href="tel: 00355 68 368 3636">+355 68 368 3636</a>
+              <a href="tel: 00355 68 587 9006">+355 68 587 9006</a>
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <a href="tel:+355 68 368 3636">
+            <a href="https://maps.app.goo.gl/xTgAqwFFCUtiW1FZ7" target="_blank">
               <div className="flex justify-center items-center rounded-full h-[90px] w-[90px] bg-[#18776A]">
                 <Location />
               </div>
             </a>
             <div className="flex flex-col ml-10">
-              <span className="text-[#18776A]">Address:</span>
-              <a href="tel:+355 68 368 3636">Tirana, Albania</a>
+              <span className="text-[#18776A]">Adresa:</span>
+              <a
+                href="https://maps.app.goo.gl/xTgAqwFFCUtiW1FZ7"
+                target="_blank"
+              >
+                Tirana, Albania
+              </a>
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <a href="mailto: basha.construction@gmail.com">
+            <a href="mailto: construct.basha@gmail.com">
               <div className="flex justify-center items-center rounded-full h-[90px] w-[90px] bg-[#18776A]">
                 <Email className="w-10 h-10 bg-[#18776A]" />
               </div>
             </a>
             <div className="flex flex-col ml-10">
               <span className="text-[#18776A]">Email:</span>
-              <a href="mailto: basha.construction@gmail.com">
-                basha.construction@gmail.com
+              <a href="mailto: construct.basha@gmail.com">
+                construct.basha@gmail.com
               </a>
             </div>
           </div>
@@ -293,59 +293,68 @@ export default function Home() {
             </ul>
             <ul className="w-1/4">
               <li>
-                <h2 className="mb-10">Our Services</h2>
+                <h2 className="mb-10">Shërbimet Tona</h2>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
-                <Link href="#" className="flex -ml-[10px] py-1">
-                  <Check /> Interior Renovation
-                </Link>
+                <span className="flex -ml-[10px] py-1">
+                  <Check /> Fasada
+                </span>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
-                <Link href="#about" className="flex -ml-[10px] py-1">
-                  <Check /> Design & Build
-                </Link>
+                <span className="flex -ml-[10px] py-1">
+                  <Check /> Pllaka & Parkete
+                </span>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
-                <Link href="#projects" className="flex -ml-[10px] py-1">
-                  <Check /> Tiling & Painting
-                </Link>
+                <span className="flex -ml-[10px] py-1">
+                  <Check /> Instalime Elektrike & Hidraulike
+                </span>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
-                <Link href="#contact" className="flex -ml-[10px] py-1">
-                  <Check /> Solar Systems
-                </Link>
+                <span className="flex -ml-[10px] py-1">
+                  <Check /> Punime Gipsi
+                </span>
+              </li>
+              <li className="border-b border-[#888889] text-[#888889]">
+                <span className="flex -ml-[10px] py-1">
+                  <Check /> Oborre & Trotuare
+                </span>
+              </li>
+              <li className="border-b border-[#888889] text-[#888889]">
+                <span className="flex -ml-[10px] py-1">
+                  <Check /> Montim Kamerash
+                </span>
               </li>
             </ul>
             <ul>
               <li>
                 <h2 className="mb-10">Kontakt</h2>
               </li>
-              <li className="border-b border-[#888889] text-[#888889]">
-                <a href="tel:+355 68 368 3636" className="flex py-1">
-                  <Phone className="w-5 h-5" />
-                  <span className="ml-2">+355 68 368 3636</span>
-                </a>
+              <li className="flex border-b border-[#888889] text-[#888889]">
+                <Phone className="w-5 h-5 mr-2" />
+                <div>
+                  <a href="tel:+355 68 368 3636" className="">
+                    +355 68 368 3636
+                  </a>
+                  <span className="mx-2">/</span>
+                  <a href="tel: 00355 68 587 9006">+355 68 587 9006</a>
+                </div>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
                 <a
-                  href="mailto: basha.construction@gmail.com"
+                  href="mailto: construct.basha@gmail.com"
                   className="flex py-1"
                 >
                   <Email className="w-5 h-5" />
-                  <span className="ml-2">basha.construction@gmail.com</span>
+                  <span className="ml-2">construct.basha@gmail.com</span>
                 </a>
               </li>
               <li className="border-b border-[#888889] text-[#888889]">
                 <ul className="flex items-center py-1">
                   <li className="inline-block mr-3">Na ndiqni:</li>
                   <li className="inline-block">
-                    <a href="">
+                    <a href="https://www.instagram.com/basha_construction/">
                       <Instagram />
-                    </a>
-                  </li>
-                  <li className="inline-block">
-                    <a href="">
-                      <Facebook />
                     </a>
                   </li>
                 </ul>
