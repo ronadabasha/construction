@@ -17,7 +17,7 @@ export default function Header() {
     />
   );
   return (
-    <div className="w-full bg-[#000000] h-[70px] fixed z-10">
+    <div className="w-full bg-[#000000] h-[70px] z-10">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <Link href="/" className="block h-[70px] ml-6 md:ml-0">
           <Logo />
