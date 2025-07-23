@@ -49,8 +49,15 @@ export default function Home() {
   };
 
   const handleSlideChange = (swiper: SwiperType) => {
-    const index = swiper.activeIndex;
-    setLoadedSlides((prev) => (prev.includes(index) ? prev : [...prev, index]));
+    const nextIndex = swiper.activeIndex + 1;
+
+    setLoadedSlides((prev) => {
+      const newSlides = [swiper.activeIndex];
+      if (nextIndex < slides.length) {
+        newSlides.push(nextIndex); // preload the next slide
+      }
+      return [...new Set([...prev, ...newSlides])];
+    });
   };
 
   return (
