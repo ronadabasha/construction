@@ -9,11 +9,11 @@ import { Routes, routes } from "@/data/routes";
 export default function Header() {
   const Logo = () => (
     <Image
-      className="absolute -mt-[22px] -ml-10"
-      src="/logo.svg"
-      width={140}
-      height={120}
-      alt="Fuchs & Eule"
+      className="absolute mt-3"
+      src="/logo.png"
+      width={50}
+      height={50}
+      alt="construction"
     />
   );
   return (

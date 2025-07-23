@@ -7,19 +7,19 @@ export type Routes = {
 
 export const routes: Routes[] = [
     {
-      label: "Kreu",
+      label: "Home",
       path: HOME,
     },
     {
-      label: "Rreth nesh",
+      label: "About Us",
       path: ABOUT,
     },
     {
-      label: "Projekte",
+      label: "Projects",
       path: PROJECTS,
     },
     {
-      label: "Kontakt",
+      label: "Contact",
       path: CONTACT,
     },
 ]
